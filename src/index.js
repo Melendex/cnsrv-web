@@ -6,7 +6,7 @@ import Header from './componets/Header';
 import reportWebVitals from './reportWebVitals';
 import History from './componets/History';
 import Target from './componets/Target';
-import FooterB from './componets/Footer';
+import Footer from './componets/Footer';
 import FormInfoContacto from './componets/FormInfoContacto';
 
 import 'bootstrap/dist/css/bootstrap.css';
@@ -21,7 +21,7 @@ root.render(
       <History />
       <Target />
       {/* <FormInfoContacto /> */}
-    <FooterB />
+    <Footer />
     
   </React.StrictMode>
 );

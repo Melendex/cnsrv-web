@@ -1,0 +1,10 @@
+.card-p {
+    color: var(--primary-color);
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.title-blue {
+    color: var(--primary-color);
+    /* font-size: 20px; */
+}

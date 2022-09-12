@@ -1,0 +1,39 @@
+.borderNav{
+    border-top: 5px solid #99cf34;
+    border-bottom: 5px solid #000f9f;
+    margin-bottom: 10px;
+}
+
+.nav-link{
+    color: #000f9f !important;
+    text-decoration: none;
+    font-weight: bold !important;
+}
+
+/* Colores*/
+.primario{
+    color: #000f9f;
+}
+.secundario{
+    color: #99cf34;
+}
+.terciario{
+    color: #e6007e;
+}
+.mdp{
+    color: #ea6e49;
+}
+.cta{
+    color: #f3980f; 
+}
+.tcc{
+    color: #99cf16
+}
+
+.btn-ingresar{
+    background: #99cf34;
+}
+
+.dropdown-toggle::after{
+    color: #99cf34;
+}

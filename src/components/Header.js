@@ -8,7 +8,7 @@ function Header({ Title }) {
     return (
 
         <header className="navbar-blue">
-            <nav className="navbar navbar-light navbar-expand-md borderNav py-0">
+            <nav className="navbar navbar-light navbar-expand-md py-0">
                 <div className="container-fluid">
                     <a className="navbar-brand" href="##">
                         <img src={logo_cnsrv} alt="" width="140" height="60" className="d-inline-block align-text-top" />
@@ -19,10 +19,10 @@ function Header({ Title }) {
                     <div className="collapse navbar-collapse text-dark px-2" id="navbarText">
                         <ul className="navbar-nav ms-auto mb-2 mb-lg-0">
                             <li className="nav-item">
-                                <a className="nav-link" aria-current="page" href="##">Inicio</a>
+                                <a className="nav-link" aria-current="page" href="/">Inicio</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="##">Nosotros</a>
+                                <a className="nav-link" href="/about">Nosotros</a>
                             </li>
                             <li className="nav-item dropdown">
                                 <a className="nav-link dropdown-toggle" href="##" role="button" data-bs-toggle="dropdown" aria-expanded="false">

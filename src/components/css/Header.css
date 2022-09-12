@@ -32,7 +32,19 @@
 .navbar-blue a:hover {
   color: var(--second-color);
 }
+.navbar-blue a:focus {
+  color: var(--second-color);
+}
 
 .navbar-blue .dropdown-toggle::after {
     color: var(--second-color);
+}
+
+.navbar-blue .nav-link:checked {
+    color: var(--second-color);
+}
+
+.navbar-blue .navbar-nav li .dropdown-menu {
+    background-color: var(--primary-color);
+    border: 2px solid var(--second-color);
 }

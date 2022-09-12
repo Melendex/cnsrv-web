@@ -6,8 +6,8 @@ import Header from './componets/Header';
 import reportWebVitals from './reportWebVitals';
 import History from './componets/History';
 import Target from './componets/Target';
+import Target2 from './componets/Target2';
 import Footer from './componets/Footer';
-import FormInfoContacto from './componets/FormInfoContacto';
 
 import 'bootstrap/dist/css/bootstrap.css';
 import 'bootstrap';
@@ -18,9 +18,9 @@ root.render(
   <React.StrictMode>
     {/* <App /> */}
     <Header Title='Home' />
-      <History />
       <Target />
-      {/* <FormInfoContacto /> */}
+      <Target2 />
+      <History />
     <Footer />
     
   </React.StrictMode>

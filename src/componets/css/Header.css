@@ -1,0 +1,38 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./../../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+
+*{
+    font-family: 'Roboto';
+}
+
+.btn-ingresa {
+    background-color: var(--second-color);
+    padding: 5px 25px 5px 25px;
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--primary-color);
+}
+
+.btn-ingresa:hover {
+    color: #FFF;
+}
+
+.navbar-blue {
+    background-color: var(--primary-color);
+    border-bottom: 4px solid var(--second-color);
+}
+
+.navbar-blue a {
+  color: #FFf;   
+}
+.navbar-blue a:hover {
+  color: var(--second-color);
+}
+
+.navbar-blue .dropdown-toggle::after {
+    color: var(--second-color);
+}

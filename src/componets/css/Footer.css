@@ -1,0 +1,47 @@
+.section-1-imgs {
+    height: 60px;
+}
+
+.imgs-redes {
+    height: 50px;
+}
+
+.words-actions {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.section-3 {
+    background-color: var(--primary-color);
+    border-top: 15px solid #99cf16;
+    color: #FFF;
+}
+
+.condusef img {
+    height: 50%;
+    margin-top: 30%;
+}
+
+.title-redes {
+    color: var(--primary-color)
+}
+
+@media (max-width: 768px) {
+    .img-buro {
+        height: 100px;
+        margin-bottom: 5%;
+    }
+
+    .section-1-imgs {
+        height: 50px;
+    }
+    
+    .imgs-redes {
+        height: 50px;
+    }
+
+.title-redes {
+    font-size: 20px;
+    color: var(--primary-color)
+}
+}

@@ -1,0 +1,15 @@
+@font-face {
+    font-family: 'Roboto';
+    src: local('Roboto'), url(./../../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
+}
+:root {
+    --primary-color: #000f9f;
+    --second-color: #aec908;
+    --font-family-primary: "Roboto"
+}
+
+@media (max-width: 768px) {
+    .all-text {
+        font-size: 15px;
+    }
+}

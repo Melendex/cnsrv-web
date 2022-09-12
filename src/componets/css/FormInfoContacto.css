@@ -1,0 +1,23 @@
+.menu-lat-left {
+    background-color: var(--primary-color);
+    display: grid;
+    text-align: center;
+    /* height: 490px; */
+    /* display: absolute; */
+    /* margin: auto 0 auto 0; */
+}
+
+.padre {
+    /* height: 488px; */
+}
+.conf-icons {
+    color: var(--second-color);
+
+    /* margin: 0 auto;
+    transform: scale(1.9); */
+}
+
+.menu-lateral {
+    background-color: var(--primary-color);
+    height: 40%;
+}

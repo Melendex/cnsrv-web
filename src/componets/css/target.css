@@ -1,0 +1,147 @@
+:root {
+    --size-box: '600px';
+    --size-weight-title-box: 900;
+    --first-box-color: #fbe2db;
+    --second-box-color: #fce1b7;
+    --third-box-color: #dfedbc;
+    --first-box-title-color: #d86543;
+    --second-box-title-color: #f4990f;
+    --third-box-title-color: #99cf16;
+}
+
+* {
+    font-family: 'Roboto';
+    font-style: bold;
+}
+
+
+
+.title span {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.title h2 {
+    font-weight: 600;
+}
+
+.conf-target {
+    height: var(--size-box);
+    margin: 10px;
+    padding: 25px;
+    border-radius: 20px;
+    text-align: left;
+}
+
+.target-1 .conf-target {
+    background-color: var(--first-box-color);
+
+}
+
+.target-2 .conf-target {
+    background-color: var(--second-box-color);
+
+}
+
+.target-3 .conf-target {
+    background-color: var(--third-box-color);
+
+}
+
+.conf-target-title {
+    font-size: 35px;
+    font-weight: var(--size-weight-title-box);
+}
+
+.conf-target-subtitle {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* SET COLOR TITLE CARDS */
+.target-1 .conf-target-title {
+    color: var(--first-box-title-color);
+}
+
+.target-2 .conf-target-title {
+    color: var(--second-box-title-color);
+}
+
+.target-3 .conf-target-title {
+    color: var(--third-box-title-color);
+}
+
+/* SET COLOR SUBTITLE CARDS */
+.target-1 .conf-target-subtitle {
+    color: var(--first-box-title-color);
+}
+
+.target-2 .conf-target-subtitle {
+    color: var(--second-box-title-color);
+}
+
+.target-3 .conf-target-subtitle {
+    color: var(--third-box-title-color);
+}
+
+/* SET COLOR MARKER LIST */
+.target-1 .conf-target ul li::marker {
+    color: var(--first-box-title-color);
+}
+
+.target-2 .conf-target ul li::marker {
+    color: var(--second-box-title-color);
+}
+
+.target-3 .conf-target ul li::marker {
+    color: var(--third-box-title-color);
+}
+
+/* SET COLOR BUTTON */
+.conf-target-button {
+    margin-top: 30px;
+    color: #FFF;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 14px 40px 14px 40px;
+    text-decoration: none;
+}
+
+.conf-target-button:hover {
+    color: #fff;
+}
+
+.target-1 .conf-target-button {
+    background-color: var(--first-box-title-color);
+}
+
+.target-2 .conf-target-button {
+    background-color: var(--second-box-title-color);
+}
+
+.target-3 .conf-target-button {
+    background-color: var(--third-box-title-color);
+}
+
+/* .hr-left {
+    --border: 'none' !important;
+    --width: '70%' !important;
+    --height: '4px' !important;
+    --opacity: '1' !important;
+}
+
+.hr-right {
+    --border: 'none' !important;
+    --margin-left: '30%' !important;
+    --width: '70%' !important;
+    --height: '4px' !important;
+    --opacity: '1' !important;
+} */
+
+@media (max-width: 768px) {
+    .img-target {
+        height: 300px;
+    }
+}

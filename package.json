@@ -2,7 +2,7 @@
   "name": "cnsrv-web",
   "version": "0.1.0",
   "private": true,
-  "homepage": "melendex.github.io/cnsrv-web",
+  "homepage": "http://melendex.github.io/cnsrv-web/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.5",
     "@testing-library/react": "^13.3.0",

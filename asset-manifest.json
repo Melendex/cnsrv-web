@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/cnsrv-web/static/css/main.a89cf226.css",
+    "main.css": "/cnsrv-web/static/css/main.ddd5042d.css",
     "main.js": "/cnsrv-web/static/js/main.5e2ac89c.js",
     "static/js/787.2fbad6c3.chunk.js": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js",
     "static/media/Carousel2.svg": "/cnsrv-web/static/media/Carousel2.2ce64d5f931aad3fe3550ff583aa44e1.svg",
@@ -39,12 +39,12 @@
     "static/media/logo_facebook.svg": "/cnsrv-web/static/media/logo_facebook.ca87373e308ceadb863afbb7b34866e9.svg",
     "static/media/logo_youtube.svg": "/cnsrv-web/static/media/logo_youtube.ca87373e308ceadb863afbb7b34866e9.svg",
     "index.html": "/cnsrv-web/index.html",
-    "main.a89cf226.css.map": "/cnsrv-web/static/css/main.a89cf226.css.map",
+    "main.ddd5042d.css.map": "/cnsrv-web/static/css/main.ddd5042d.css.map",
     "main.5e2ac89c.js.map": "/cnsrv-web/static/js/main.5e2ac89c.js.map",
     "787.2fbad6c3.chunk.js.map": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.a89cf226.css",
+    "static/css/main.ddd5042d.css",
     "static/js/main.5e2ac89c.js"
   ]
 }

@@ -71,3 +71,8 @@
   color: #000f9f;
   border-radius: 50px !important;
 }
+
+.btnSlide:hover{
+  background: #99cf34;
+  color: #ffff;
+}

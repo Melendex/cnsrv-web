@@ -37,10 +37,10 @@ const infoPrevencion = () => {
 
 
   return (
-    <div class="row align-items-start">
+    <div className="row align-items-start">
         {info.length !== 0 ?
           info.map((data,index) => (
-              <div class="col-xs-6 col-sm-6 col-md-6 col-lg-3 font-roboto mt-3">
+              <div key={index} className="col-xs-6 col-sm-6 col-md-6 col-lg-3 font-roboto mt-3">
                 <div className='text-center'text-start >
                   <img src={data.img} className="img-C2" alt=""/>
                 </div>

@@ -2,10 +2,21 @@
     font-family: 'Roboto';
     src: local('Roboto'), url(./../../fonts/Roboto/Roboto-Regular.ttf) format('truetype');
 }
+
+@font-face {
+    font-family: 'Poppins';
+    src: local('Poppins'), url(./../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
+
+
 :root {
     --primary-color: #000f9f;
     --second-color: #aec908;
     --font-family-primary: "Roboto"
+}
+
+*{
+    font-family: 'Poppins' !important;
 }
 
 @media (max-width: 768px) {

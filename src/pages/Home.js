@@ -16,9 +16,8 @@ const Home = () => {
   return (
     <>
       <NavBar/> 
-
       <Slider/>
-
+      
       <section>
         <div className='text-center primario fs-3 mt-5'>
           <b>Impacto en la vida de las <b className='secundario'>personas</b></b>

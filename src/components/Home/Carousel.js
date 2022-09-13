@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link }from "react-router-dom";
 import home1 from '../../img/CarouselHome/Carousel1.svg';
 import home2 from '../../img/CarouselHome/Carousel2.svg';
 import home3 from '../../img/CarouselHome/Carousel3.svg';
@@ -18,12 +19,12 @@ const Slider = () => {
             title: 'Transformamos la vida de las personas',
             subtitle: 'Acércate a nosotros y conoce todos los productos y beneficios que tenemos para tu bienestar',
             txt_btn: 'Saber más',
-            url_btn: '##'
+            url_btn: '/about'
         },
         {
             img: home2,
             title: 'Primero es tu salud cuídate',
-            subtitle: 'Conoce más sobre nuestro espacio para saber más de las campañas de salud que tenemos para ti',
+            subtitle: 'Conoce más sobre nuestro espacio mujer, para saber más de las campañas de salud que tenemos para ti',
             txt_btn: 'Saber más',
             url_btn: '##'
         },
@@ -53,8 +54,9 @@ const Slider = () => {
 
     const btn = (txt_btn, url_btn) =>{
         return(
-            <div className='my-1 text-center'>
-              <a href= {url_btn} className='btn btnSlide'>{txt_btn}</a>
+            <div className='my-3 text-center'>
+              {/* <a href= {url_btn} className='btn btnSlide'>{txt_btn}</a> */}
+              <Link to={url_btn} className='btn btnSlide'>{txt_btn}</Link>
             </div>
         )
     }

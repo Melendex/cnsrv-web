@@ -10,7 +10,7 @@
     font-weight: bold !important;
 }
 
-.nav-link:hover{
+.navbar-white .nav-link:hover{
     background: #99cf34 !important;
     border-radius: 12px;
 }

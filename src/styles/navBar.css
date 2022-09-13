@@ -10,6 +10,11 @@
     font-weight: bold !important;
 }
 
+.navbar-white .nav-link:hover{
+    background: #99cf34 !important;
+    border-radius: 12px;
+}
+
 /* Colores*/
 .primario{
     color: #000f9f;
@@ -32,6 +37,7 @@
 
 .btn-ingresar{
     background: #99cf34;
+    border-radius: 12px;
 }
 
 .dropdown-toggle::after{

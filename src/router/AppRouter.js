@@ -4,6 +4,7 @@ import React from "react";
 import {
     HashRouter,
     BrowserRouter,
+    Switch,
     Routes,
     Route,
 } from "react-router-dom";
@@ -11,12 +12,12 @@ import About from "../pages/About";
 import Home from "../pages/Home";
 
 const AppRouter = () => (
-    <BrowserRouter basename="/cnsrv-web">
+    <HashRouter basename="">
         <Routes>
-            <Route path="/" element={<Home />} exact/>
-            <Route path="/about" element={<About />} exact/>
+            <Route path="/" element={<Home />} exact />
+            <Route path="/about" element={<About />} exact />
         </Routes>
-    </BrowserRouter>
+    </HashRouter>
 )
 
 export default AppRouter;

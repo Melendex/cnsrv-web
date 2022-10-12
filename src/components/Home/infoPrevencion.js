@@ -6,6 +6,8 @@ import info1 from '../../img/infoPrevencion/Cancer.svg'
 import info2 from '../../img/infoPrevencion/Mama.svg'
 import info3 from '../../img/infoPrevencion/Vista.svg'
 import info4 from '../../img/infoPrevencion/Corazon.svg'
+import info5 from '../../img/infoPrevencion/Dental.svg'
+import info6 from '../../img/infoPrevencion/Educacion.svg'
 
 const infoPrevencion = () => {
     const info = [
@@ -18,13 +20,13 @@ const infoPrevencion = () => {
         {
           img: info2,
           value: 1573,
-          title: 'Prevención enfermedades de mama',
+          title: 'Prevención enfermedades de Mama',
           subtitle: 'Una mujer emprendedora necesita salud para estar bien en su negocio'
         },
         {
           img: info3,
           value: 18351,
-          title: 'Prevención Enfermedaes de la Vista',
+          title: 'Prevención Enfermedades de la Vista',
           subtitle: 'Cuidar tu vista para cuidar de tu emprendimiento'
         },
         {
@@ -33,6 +35,18 @@ const infoPrevencion = () => {
           title: 'Enfremedades Crónico Degenerativas',
           subtitle: 'Apoyo en el tratatamiento de enfermedades para nuestras emprendedoras'
         },
+        {
+          img: info5,
+          value: 179,
+          title: 'Salud Bucal',
+          subtitle: 'Campañas de apoyo para asegurar el bienestar bucal de nuestras clientas'
+        },
+        {
+          img: info6,
+          value: 179,
+          title: 'Educación Financiera y Microempresarial',
+          subtitle: 'Asesoramiento profesional para el emprendimiento de la mujer'
+        },
     ]
 
 
@@ -40,7 +54,7 @@ const infoPrevencion = () => {
     <div className="row align-items-start">
         {info.length !== 0 ?
           info.map((data,index) => (
-              <div key={index} className="col-xs-6 col-sm-6 col-md-6 col-lg-3 font-roboto mt-3">
+              <div key={index} className="col-xs-6 col-sm-6 col-md-6 col-lg-2 font-roboto mt-3">
                 <div className='text-center'text-start >
                   <img src={data.img} className="img-C2" alt=""/>
                 </div>

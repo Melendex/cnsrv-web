@@ -46,7 +46,7 @@ const Slider = () => {
             img: home4,
             title: 'Bonificación conserva',
             subtitle: 'Conserva cree en tu palabra y te bonifica en efectivo hasta el 1% sobre tu monto otorgado, descubre cómo ganarla',
-            txt_btn: 'Saber más',
+            txt_btn: 'Cómo ganarla',
             url_btn: '##'
         },
         
@@ -87,7 +87,7 @@ const Slider = () => {
                 <div className="col-sm-6 col-md-6 col-lg-6">
                     <img src={img} className="d-block img-sliderH img" alt=""/>
                 </div>
-                <div className="col">
+                <div className="col-sm-6 col-md-6 col-lg-6">
                     <b className='fs-2 primario'>{title}</b>
                     <div className='primario fs-5 fw-bold mt-3 text-start'>
                         {subtitle}

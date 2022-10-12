@@ -43,6 +43,28 @@ const Home = () => {
       </div>
 
       <Target2/>
+
+      <div className='text-center primario'>
+        <span className='fs-3'>CALCULA TUS PAGOS</span>
+
+        <div className='test-start'>
+          <span className='fs2'>¿Cuál credito te interesa?</span>
+
+          <div className='container'>
+            <div className='row'>
+              <div className="col-sm-12 col-md-3 col-lg-1">
+                <button className='btn btn-primary btn-sm'>Individual</button>
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-1">
+                <button className='btn btn-primary btn-sm'>Grupal</button>
+              </div>
+              <div className="col-sm-12 col-md-3 col-lg-1">
+                <button className='btn btn-primary btn-sm'>Mixto</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     
       <Info20Anios/>
 

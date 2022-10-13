@@ -4,8 +4,9 @@ import NavBar from '../components/navBar';
 import InfoPrevencion from '../components/Home/infoPrevencion';
 import Info20Anios from '../components/Home/info20anios';
 import Target2 from '../components/Target2';
-import Footer from '../components/Footer'
-import Slider from '../components/Home/Carousel'
+import Footer from '../components/Footer';
+import Slider from '../components/Home/Carousel';
+import CreditsInfo  from '../components/Home/creditsInfo';
 import '../styles/home.css';
 import '../styles/navBar.css';
 import 'bootstrap';
@@ -43,6 +44,8 @@ const Home = () => {
       </div>
 
       <Target2/>
+
+      <CreditsInfo/>
     
       <Info20Anios/>
 

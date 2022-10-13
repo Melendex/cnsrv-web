@@ -4,8 +4,9 @@ import NavBar from '../components/navBar';
 import InfoPrevencion from '../components/Home/infoPrevencion';
 import Info20Anios from '../components/Home/info20anios';
 import Target2 from '../components/Target2';
-import Footer from '../components/Footer'
-import Slider from '../components/Home/Carousel'
+import Footer from '../components/Footer';
+import Slider from '../components/Home/Carousel';
+import CreditsInfo  from '../components/Home/creditsInfo';
 import '../styles/home.css';
 import '../styles/navBar.css';
 import 'bootstrap';
@@ -44,27 +45,7 @@ const Home = () => {
 
       <Target2/>
 
-      <div className='text-center primario'>
-        <span className='fs-3'>CALCULA TUS PAGOS</span>
-
-        <div className='test-start'>
-          <span className='fs2'>¿Cuál credito te interesa?</span>
-
-          <div className='container'>
-            <div className='row'>
-              <div className="col-sm-12 col-md-3 col-lg-1">
-                <button className='btn btn-primary btn-sm'>Individual</button>
-              </div>
-              <div className="col-sm-12 col-md-3 col-lg-1">
-                <button className='btn btn-primary btn-sm'>Grupal</button>
-              </div>
-              <div className="col-sm-12 col-md-3 col-lg-1">
-                <button className='btn btn-primary btn-sm'>Mixto</button>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+      <CreditsInfo/>
     
       <Info20Anios/>
 

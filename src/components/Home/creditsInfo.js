@@ -139,7 +139,6 @@ const CreditsInfo = () => {
                 </div>
 
                 <div className='text-center'>
-                    {/* <button className='btn button'>Solicitar crédito</button> */}
                     <Link to="#" className='btn loanBtn'>Solicitar crédito</Link>
                 </div>
 

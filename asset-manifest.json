@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cnsrv-web/static/css/main.0ac200d0.css",
-    "main.js": "/cnsrv-web/static/js/main.447def3f.js",
+    "main.css": "/cnsrv-web/static/css/main.8591e6f4.css",
+    "main.js": "/cnsrv-web/static/js/main.657791a6.js",
     "static/js/787.2fbad6c3.chunk.js": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js",
     "static/media/Carousel1.svg": "/cnsrv-web/static/media/Carousel1.0a0ea3d577ddd2d84b26f15fd912dbe0.svg",
     "static/media/Carousel3.svg": "/cnsrv-web/static/media/Carousel3.ae3f2f84656a7c23170312022ca646ce.svg",
@@ -41,12 +41,12 @@
     "static/media/logo_facebook.svg": "/cnsrv-web/static/media/logo_facebook.ca87373e308ceadb863afbb7b34866e9.svg",
     "static/media/logo_youtube.svg": "/cnsrv-web/static/media/logo_youtube.ca87373e308ceadb863afbb7b34866e9.svg",
     "index.html": "/cnsrv-web/index.html",
-    "main.0ac200d0.css.map": "/cnsrv-web/static/css/main.0ac200d0.css.map",
-    "main.447def3f.js.map": "/cnsrv-web/static/js/main.447def3f.js.map",
+    "main.8591e6f4.css.map": "/cnsrv-web/static/css/main.8591e6f4.css.map",
+    "main.657791a6.js.map": "/cnsrv-web/static/js/main.657791a6.js.map",
     "787.2fbad6c3.chunk.js.map": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0ac200d0.css",
-    "static/js/main.447def3f.js"
+    "static/css/main.8591e6f4.css",
+    "static/js/main.657791a6.js"
   ]
 }

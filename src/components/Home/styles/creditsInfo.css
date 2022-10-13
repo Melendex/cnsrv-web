@@ -1,0 +1,160 @@
+:root {
+    --primary-color: #000f9f;
+    --second-color: #e8e8e8;
+    --tird-color : #99cf34;
+}
+
+.btn-credits{
+    text-align: center ;
+    font-size: 15px;
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 15px;
+    width: 6rem;
+    /* height: 100%;
+    width: 100%; */
+}
+
+.contenedor{
+    margin: 2rem 2.5rem;
+    padding: 1rem 2rem;
+    box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    -webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+}
+
+.txtInfo{
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0px;
+    margin: 0px;
+}
+
+.inputMonto{
+    /* width: 100%; */
+    margin-top: 0px;
+    padding-left: 10px;
+    border-color: var(--primary-color);
+    text-align: start;
+    border-radius: 12px;
+    color: white;
+    font-size: 15px;
+    background: var(--primary-color);
+}
+
+.inputRange{
+    width: 100%;
+    /* --webkit-appearance: none; */
+    color: black !important;
+    margin-bottom: 2rem;
+}
+
+.inputRange2{
+    width: 100%;
+    background: var(--primary-color);
+    margin-bottom: 2rem;
+}
+
+.paymentBtn{
+    padding: 0px;
+    text-align: center ;
+    font-size: 15px;
+    background-color: var(--second-color);
+    border-color: var(--second-color);
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-top: 15px;
+    width: 7rem;
+    height: 2.2rem;
+}
+
+.paymentBtn:hover{
+    background-color: var(--tird-color);
+    border-color: var(--tird-color);
+    color: var(--primary-color);
+}
+/* .paymentBtn:visited{
+    background-color: var(--tird-color) !important;
+    border-color: var(--tird-color) !important;
+    color: var(--primary-color) !important;
+} */
+
+.resultInfo{
+    margin: 2rem 3rem;
+    padding: 0.5rem 2rem;
+    border-style: solid;
+    border-radius: 12px;
+    color: var(--tird-color);
+    font-size: 19px;
+    /* width:60%;
+    height: 100%; */
+}
+
+.txt2Info{
+    font-size: 18px;
+    padding-right: 1rem;
+    margin: 0px;
+    color: gray;
+}
+
+.txt3Info{
+    font-size: 18px;
+    color: #2999e4;
+}
+
+.loanBtn{
+    border-radius: 12px;
+    margin-top: 1.5rem;
+    background: var(--primary-color);
+    color: white;
+    font-size: 20px;
+}
+
+
+@media (max-width: 768px) {
+
+    .contenedor{
+        margin: 2rem 0rem;
+    }
+
+    .txtInfo {
+        font-size: 14px;
+    }
+
+    .btn-credits{
+        font-size: 13px;
+        margin-top: 15px;
+        box-shadow: none
+    }
+
+    .paymentBtn{
+        font-size: 13px;
+        margin-top: 15px;
+    }
+
+    .inputMonto{
+        color: white;
+        font-size: 15px;
+        background: var(--primary-color);
+        width: 100%;
+    }
+
+    .txt2Info{
+        font-size: 15px;
+    }
+    
+    .txt3Info{
+        font-size: 15px;
+    }
+
+    .resultInfo{
+        color: var(--tird-color);
+        font-size: 15px;
+    }
+
+    .loanBtn{
+        font-size: 15px;
+    }
+}

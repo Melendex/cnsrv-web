@@ -46,7 +46,7 @@ function History() {
 
     function colImg() {
         return (
-            <div className="col-sm-12 col-md-6">
+            <div className="col-sm-12 col-md-6 ps-5 mt-5">
                 <img src={imgHistory} alt="Conserva" />
             </div>
         );
@@ -109,7 +109,7 @@ function History() {
             </div>
 
             <div className="container text-center mt-5">
-                <h2 className="history-subtittle">Nuestros valores</h2>
+                <h2 className="history-subtittle-2">NUESTROS VALORES</h2>
 
                 {
                     valores.map((item) =>
@@ -117,7 +117,7 @@ function History() {
                             <div className='col-sm-12 col-md-2'>
                                 <img src={item.img} alt="Liderazgo" />
                             </div>
-                            <div className='col-sm-12 col-md-10'>
+                            <div className='col-sm-12 col-md-10 target-valores-text'>
                                 <p className="mb-0">{item.text}</p>
                             </div>
                         </div>

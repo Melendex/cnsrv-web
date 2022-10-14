@@ -11,7 +11,7 @@ const About = () => {
     <>
       <Header Title='Home' />
         <Target />
-        <Target2 />
+        {/* <Target2 /> */}
         <History />
       <Footer />
     </>

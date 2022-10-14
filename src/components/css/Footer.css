@@ -25,6 +25,13 @@
 .title-redes {
     color: var(--primary-color)
 }
+/* .logo-section-3 {
+    height: 175px;
+} */
+.img-buro {
+    height: 120px;
+    margin-bottom: 5%;
+}
 
 @media (max-width: 768px) {
     .img-buro {

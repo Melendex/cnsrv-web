@@ -3,3 +3,21 @@
     color: var(--primary-color);
     font-weight: 900;
 }
+
+.component-container {
+    background-color: #EDEFF7;
+    border: 2px solid var(--primary-color);
+    border-radius: 20px;
+    padding: 55px;
+}
+
+.component-title-normal {
+    font-size: 45px;
+    font-weight: bolder;
+    /* color: var(--primary-color) */
+}
+.component-title-blue {
+    font-size: 45px;
+    color: var(--primary-color);
+    font-weight: bolder;
+}

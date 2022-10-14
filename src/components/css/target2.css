@@ -1,5 +1,5 @@
 .card-p {
-    color: var(--primary-color);
+    /* color: var(--primary-color); */
     font-size: 20px;
     font-weight: 900;
 }
@@ -7,4 +7,60 @@
 .title-blue {
     color: var(--primary-color);
     /* font-size: 20px; */
+}
+
+.conf-target2-button {
+    background-color: var(--primary-color);
+    margin-top: 30px;
+    color: #FFF;
+    border-radius: 30px;
+    border-style: none;
+    font-weight: 800;
+    font-size: 20px;
+    padding: 14px 40px 14px 40px;
+    text-decoration: none;
+}
+
+.conf-target2-title {
+    color: var(--primary-color);
+    font-size: 35px;
+    font-weight: var(--size-weight-title-box);
+}
+
+/* .container-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+}
+
+.img-target {
+    background-image: linear-gradient(to bottom, rgb(6, 6, 114) 0%,
+            rgb(23, 207, 38) 100%);
+    content: '';
+    position: absolute;
+    padding: 15px;
+    border-radius: inherit;
+}
+
+.container-img img {
+    border-radius: 50%;
+    z-index: 2;
+    border: 10px solid #FFF;
+
+} */
+
+.img-target {
+    /* background-image: linear-gradient(to bottom, rgb(6, 6, 114) 0%,
+    rgb(23, 207, 38) 100%); */
+    border-radius: 50%;
+    padding: 15px;
+    /* margin-left: 13%;
+    margin-right: 13%; */
+}
+.img-target img{
+    background-image: linear-gradient(to right, rgb(6, 6, 114) 0%,
+    rgb(23, 207, 38) 100%);
+    border-radius: 50%;
+    padding: 15px;
+
 }

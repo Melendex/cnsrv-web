@@ -1,27 +1,30 @@
 {
   "files": {
-    "main.css": "/cnsrv-web/static/css/main.8591e6f4.css",
-    "main.js": "/cnsrv-web/static/js/main.657791a6.js",
+    "main.css": "/cnsrv-web/static/css/main.8212619b.css",
+    "main.js": "/cnsrv-web/static/js/main.9a415240.js",
     "static/js/787.2fbad6c3.chunk.js": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js",
     "static/media/Carousel1.svg": "/cnsrv-web/static/media/Carousel1.0a0ea3d577ddd2d84b26f15fd912dbe0.svg",
     "static/media/Carousel3.svg": "/cnsrv-web/static/media/Carousel3.ae3f2f84656a7c23170312022ca646ce.svg",
     "static/media/Carousel2.svg": "/cnsrv-web/static/media/Carousel2.2ce64d5f931aad3fe3550ff583aa44e1.svg",
     "static/media/Carousel4.svg": "/cnsrv-web/static/media/Carousel4.d1df41ddcc5b8967d61868dbf3307a05.svg",
+    "static/media/resiliencia.png": "/cnsrv-web/static/media/resiliencia.b498c4aaeaf73f067f82.png",
+    "static/media/history.svg": "/cnsrv-web/static/media/history.f06e9053e71dd16ea6b6eefcc7c0f0ec.svg",
+    "static/media/resiliencia3.png": "/cnsrv-web/static/media/resiliencia3.8127e68965bb629b5b66.png",
     "static/media/Roboto-Regular.ttf": "/cnsrv-web/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Poppins-Regular.ttf": "/cnsrv-web/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
-    "static/media/history.svg": "/cnsrv-web/static/media/history.5c4f3edfa1394a70e1a631f86c51c892.svg",
+    "static/media/resiliencia2.png": "/cnsrv-web/static/media/resiliencia2.0d7d3ca44b0bba0a02d0.png",
     "static/media/logo_buro.svg": "/cnsrv-web/static/media/logo_buro.45b04835a210458d85195d8b5d757cd1.svg",
-    "static/media/r3.png": "/cnsrv-web/static/media/r3.0d1dcccc965d7fcbaad1.png",
     "static/media/Cancer.svg": "/cnsrv-web/static/media/Cancer.33ee079d59001fb43757252a7f7a2911.svg",
-    "static/media/r1.png": "/cnsrv-web/static/media/r1.880dd97b3e7b398467e1.png",
-    "static/media/r2.png": "/cnsrv-web/static/media/r2.4ea2797fe66e4527e32a.png",
     "static/media/Mama.svg": "/cnsrv-web/static/media/Mama.ee8f5f8736c52790d65844b0537b02fe.svg",
     "static/media/Educacion.svg": "/cnsrv-web/static/media/Educacion.2db95d4a48404d0fd949f29bce29f93d.svg",
     "static/media/Corazon.svg": "/cnsrv-web/static/media/Corazon.06b3fad92f6aad429761a2b874d2e1df.svg",
+    "static/media/logo-mujeres-palabra-conserva.svg": "/cnsrv-web/static/media/logo-mujeres-palabra-conserva.932b4966a4ae8c92b140027ac519815f.svg",
     "static/media/Vista.svg": "/cnsrv-web/static/media/Vista.a4de38d65e807d1daf116e91d4935102.svg",
     "static/media/Dental.svg": "/cnsrv-web/static/media/Dental.71548bef1777cd1303e0de2eed143232.svg",
     "static/media/Carousel5.svg": "/cnsrv-web/static/media/Carousel5.de63e170a42c6ca794a8c447bbc95922.svg",
     "static/media/logo_cnsrv_blue.svg": "/cnsrv-web/static/media/logo_cnsrv_blue.e538ef79c9656a2d7864fc71134da57a.svg",
+    "static/media/logo-tu-negocio-conserva.svg": "/cnsrv-web/static/media/logo-tu-negocio-conserva.e1973478c792a768b22394fe865f7196.svg",
+    "static/media/logo-conservatactiva.svg": "/cnsrv-web/static/media/logo-conservatactiva.559657232889d5e151cdea301235fc31.svg",
     "static/media/colaborador.png": "/cnsrv-web/static/media/colaborador.62fb5724c86145b0ff21.png",
     "static/media/logros.png": "/cnsrv-web/static/media/logros.a5516659b64d1d99b529.png",
     "static/media/liderazgo.png": "/cnsrv-web/static/media/liderazgo.4d1a4b0a41898f45aec1.png",
@@ -41,12 +44,12 @@
     "static/media/logo_facebook.svg": "/cnsrv-web/static/media/logo_facebook.ca87373e308ceadb863afbb7b34866e9.svg",
     "static/media/logo_youtube.svg": "/cnsrv-web/static/media/logo_youtube.ca87373e308ceadb863afbb7b34866e9.svg",
     "index.html": "/cnsrv-web/index.html",
-    "main.8591e6f4.css.map": "/cnsrv-web/static/css/main.8591e6f4.css.map",
-    "main.657791a6.js.map": "/cnsrv-web/static/js/main.657791a6.js.map",
+    "main.8212619b.css.map": "/cnsrv-web/static/css/main.8212619b.css.map",
+    "main.9a415240.js.map": "/cnsrv-web/static/js/main.9a415240.js.map",
     "787.2fbad6c3.chunk.js.map": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.8591e6f4.css",
-    "static/js/main.657791a6.js"
+    "static/css/main.8212619b.css",
+    "static/js/main.9a415240.js"
   ]
 }

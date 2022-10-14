@@ -43,7 +43,7 @@ function Header({ Title }) {
                                 <Link className="nav-link" to="##">Solicita tu crédito</Link>
                             </li>
                             <li className="nav-item">
-                                <Link className="nav-link" to="##">Contáctanos</Link>
+                                <Link className="nav-link" to="/help">Contáctanos</Link>
                             </li>
                             <li className="nav-item">
                                 <button type="button" className="btn-ingresa">Ingresar</button>

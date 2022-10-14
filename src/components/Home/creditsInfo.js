@@ -54,8 +54,6 @@ const CreditsInfo = () => {
 
     return (
         <div className='text-center primario'>
-            <span className='fs-3'>CALCULA TUS PAGOS</span>
-
             <div className='contenedor text-start'>
                 <span className='txtInfo'>¿Cuál crédito te interesa?</span>
                 <div className='row mb-3'>

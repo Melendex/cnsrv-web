@@ -1,0 +1,15 @@
+.contenedor2{
+    margin: 2rem 5rem;
+    padding: 1rem 2rem;
+    box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
+    -webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+}
+
+@media (max-width: 768px) {
+
+    .contenedor2{
+        margin: 2rem 0rem;
+    }
+
+}

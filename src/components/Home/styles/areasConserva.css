@@ -1,0 +1,26 @@
+.imgAreas{
+    width: 120px;
+    width: 120px;
+}
+
+.container-areas{
+    padding: 0rem 3rem;
+}
+
+.content-txtAreas{
+    border-radius: 5px  ;
+    margin-top: 1.3rem;
+    padding: 0rem 1rem;
+    background: var(--primary-color);
+    color: white;
+}
+
+.titleAreas{
+    font-size: 18px;
+    padding: 1rem 0rem;
+}
+
+.subtitleAreas{
+    font-size: 12px;
+    padding: 1.2rem 0.5rem;
+}

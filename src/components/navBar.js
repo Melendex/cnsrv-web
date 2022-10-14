@@ -41,7 +41,7 @@ const NavBar = () => {
               <Link className="nav-link" to="#">Solicita tu crédito</Link>
             </li>
             <li className="nav-item">
-              <Link className="nav-link" to="#">Contáctanos</Link>
+              <Link className="nav-link" to="/help">Contáctanos</Link>
             </li>
             <li className="nav">
               <Link className="nav-link btn btn-ingresar" to="#">Ingresa</Link>

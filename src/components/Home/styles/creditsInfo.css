@@ -1,14 +1,8 @@
-:root {
-    --primary-color: #000f9f;
-    --second-color: #e8e8e8;
-    --tird-color : #99cf34;
-}
-
 .btn-credits{
     text-align: center ;
     font-size: 15px;
-    background-color: var(--second-color);
-    border-color: var(--second-color);
+    background-color: var(--tird-color);
+    border-color: var(--tird-color);
     color: var(--primary-color);
     font-weight: bold;
     margin-top: 15px;
@@ -18,7 +12,7 @@
 }
 
 .contenedor{
-    margin: 2rem 2.5rem;
+    margin: 2rem 5rem;
     padding: 1rem 2rem;
     box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
     -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
@@ -61,8 +55,8 @@
     padding: 0px;
     text-align: center ;
     font-size: 15px;
-    background-color: var(--second-color);
-    border-color: var(--second-color);
+    background-color: var(--tird-color);
+    border-color: var(--tird-color);
     color: var(--primary-color);
     font-weight: bold;
     margin-top: 15px;
@@ -71,13 +65,13 @@
 }
 
 .paymentBtn:hover{
-    background-color: var(--tird-color);
-    border-color: var(--tird-color);
+    background-color: var(--second-color);
+    border-color: var(--second-color);
     color: var(--primary-color);
 }
 /* .paymentBtn:visited{
-    background-color: var(--tird-color) !important;
-    border-color: var(--tird-color) !important;
+    background-color: var(--second-color) !important;
+    border-color: var(--second-color) !important;
     color: var(--primary-color) !important;
 } */
 
@@ -86,7 +80,7 @@
     padding: 0.5rem 2rem;
     border-style: solid;
     border-radius: 12px;
-    color: var(--tird-color);
+    color: var(--second-color);
     font-size: 19px;
     /* width:60%;
     height: 100%; */
@@ -150,7 +144,7 @@
     }
 
     .resultInfo{
-        color: var(--tird-color);
+        color: var(--second-color);
         font-size: 15px;
     }
 

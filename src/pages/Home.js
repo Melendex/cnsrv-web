@@ -7,6 +7,8 @@ import Target2 from '../components/Target2';
 import Footer from '../components/Footer';
 import Slider from '../components/Home/Carousel';
 import CreditsInfo  from '../components/Home/creditsInfo';
+import SuccessStories from '../components/Home/successStories';
+import AreasConserva from '../components/Home/areasConserva';
 import '../styles/home.css';
 import '../styles/navBar.css';
 import 'bootstrap';
@@ -45,9 +47,16 @@ const Home = () => {
 
       <Target2/>
 
+      <div className='text-center primario'>
+        <span className='fs-2'>CALCULA TUS PAGOS</span>
+      </div>
       <CreditsInfo/>
     
       <Info20Anios/>
+
+      <SuccessStories/>
+
+      <AreasConserva/>
 
       <Footer/>
 

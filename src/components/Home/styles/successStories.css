@@ -1,0 +1,25 @@
+.txtStorie{
+    font-size: 30px;
+    /* font-weight: bold; */
+}
+
+.txt2Stories{
+    font-size: 18px;
+    color: black;
+    margin-top: 4rem;
+    padding-left: 3rem;
+    /* font-weight: bolder; */
+}
+
+.txt3Stories{
+    color: black;
+    font-size: 10px;
+    padding-left: 3rem;
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+.videoStorie{
+    width: 16rem;
+    height: 20rem;
+}

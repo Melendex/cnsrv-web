@@ -1,0 +1,45 @@
+.txtHelp{
+    color: var(--primary-color);
+}
+
+.txt1Help{
+    margin: 2rem 0rem 1rem 0rem;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.txt2Help{
+    padding: 0rem 6rem;
+    margin: 0rem 6rem;
+}
+
+.txt3Help{
+    text-align: center;
+    /* background: rgb(250, 149, 149); */
+    color: red;
+    font-size: 10px;
+    font-weight: bold;
+    margin: 2rem 0rem .5rem 0rem;
+    /* width: auto; */
+}
+
+.form-control:focus{
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+.form-select:focus{
+    border-color: var(--primary-color);
+    box-shadow: none;
+}
+
+.btnHelp{
+    border-radius: 15px;
+    background: var(--primary-color);
+    color: white;
+    padding: 0.5rem 3rem;
+}
+
+.imgHelp{
+    width: 150px;
+    height: 150px;
+}

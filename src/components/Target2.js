@@ -1,7 +1,7 @@
 import "./css/target2.css";
-import img1 from './../img/r1.png';
-import img2 from './../img/r2.png';
-import img3 from './../img/r3.png';
+import resiliencia from './../img/resiliencia.png';
+import img2 from './../img/resiliencia2.png';
+import img3 from './../img/resiliencia3.png';
 import Benefits from "./Benefits";
 
 function Target() {
@@ -9,7 +9,7 @@ function Target() {
     const infoCards = [
         {
             title: 'Mujeres de palabra conserva',
-            img: img1,
+            img: resiliencia,
             urlButton: '##',
             color: '#d86543',
             features: [
@@ -85,30 +85,29 @@ function Target() {
 
     function targetImg(img) {
         return (
-            <div className="col-sm-12 col-md-12 col-lg-6 mb-4 mt-4">
-                <img className="img-target" src={img} alt="" />
+            <div className="col-sm-12 col-md-12 col-lg-6 mb-4 mt-4 img-target">
+                {/* <div className="img-target"> */}
+                    <img src={img} alt="" />
+                {/* </div> */}
             </div>
         )
     };
 
     function targetCard(title, features, requeriments, text, urlButton) {
         return (
-            <div className="col-sm-12 col-md-12 col-lg-6">
-                <h2 className="conf-target-title">{title}</h2>
+            <div className="col-sm-12 col-md-12 col-lg-6 text-center">
+                <h2 className="conf-target2-title">{title}</h2>
 
                 <div className="text-center card-p all-text mb-5 mt-5">
                     <p>{text}</p>
                 </div>
 
-                <div className="row">
+                <a className="conf-target2-button" href={urlButton}>Solicita tu crédito</a>
+                {/* <div className="row">
                     <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3 mb-3 p-0">
-                        <a className="conf-target-button" href={urlButton}>Solicita tu crédito</a>
 
                     </div>
-                    <div className="col-sm-12 col-md-12 col-lg-12 col-xl-6 mt-3 mb-3 p-0">
-                        <a href="##">Ver más -{'>'} </a>
-                    </div>
-                </div>
+                </div> */}
 
             </div>
         )
@@ -128,13 +127,14 @@ function Target() {
                 infoCards.map((card, idx) =>
                     <>
                         {/* <hr style={{border: '2px solid', width: '80%', 'background-color': 'res', color: 'red', opacity: '1'}}></hr> */}
-                        {idx % 2 === 0 && idx !== 0 ? <hr style={{ border: 'none', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>}
-                        {idx % 2 === 1 && idx !== 0 ? <hr style={{ border: 'none', marginLeft: '35%', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>}
+                        {/* {idx % 2 === 0 && idx !== 0 ? <hr style={{ border: 'none', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>}
+                        {idx % 2 === 1 && idx !== 0 ? <hr style={{ border: 'none', marginLeft: '35%', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>} */}
                         <div key={idx} className={`container mt-4 target-${idx + 1} mr-1 ml-1`}>
                             <div className="row text-center align-items-center p-3">
-                                {idx % 2 === 0 ? targetImg(card.img) : <></>}
+                                {/* {idx % 2 === 0 ? targetImg(card.img) : <></>} */}
+                                {targetImg(card.img)}
                                 {targetCard(card.title, card.features, card.requeriments, card.text, card.urlButton)}
-                                {idx % 2 === 1 ? targetImg(card.img) : <></>}
+                                {/* {idx % 2 === 1 ? targetImg(card.img) : <></>} */}
                             </div>
                         </div>
                     </>

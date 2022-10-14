@@ -96,6 +96,20 @@
 .target-3 .conf-target ul li::marker {
     color: var(--third-box-title-color);
 }
+li{
+    font-weight: bold;
+}
+.list1 li::marker {
+    color: var(--first-box-title-color);
+}
+
+.list2 li::marker {
+    color: var(--second-box-title-color);
+}
+
+.list3 li::marker {
+    color: var(--third-box-title-color);
+}
 
 /* SET COLOR BUTTON */
 .conf-target-button {
@@ -124,6 +138,18 @@
 .target-3 .conf-target-button {
     background-color: var(--third-box-title-color);
 }
+/* ---------------------------- */
+
+.FirstRow-imgs-content {
+    margin-top: auto;
+    margin-bottom: auto;
+}
+.FirstRow-imgs {
+    height: 180px;
+}
+.FirstRow-imgs2 {
+    height: 550px;
+}
 
 /* .hr-left {
     --border: 'none' !important;
@@ -139,6 +165,7 @@
     --height: '4px' !important;
     --opacity: '1' !important;
 } */
+
 
 @media (max-width: 768px) {
     .img-target {

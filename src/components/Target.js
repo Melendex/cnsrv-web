@@ -1,7 +1,10 @@
 import "./css/target.css";
-import img1 from './../img/r1.png';
-import img2 from './../img/r2.png';
-import img3 from './../img/r3.png';
+import img1 from './../img/resiliencia.png';
+import img2 from './../img/resiliencia2.png';
+import img3 from './../img/resiliencia3.png';
+import logo1 from './../img/logo-mujeres-palabra-conserva.svg';
+import logo2 from './../img/logo-conservatactiva.svg';
+import logo3 from './../img/logo-tu-negocio-conserva.svg';
 import Benefits from "./Benefits";
 
 function Target() {
@@ -10,6 +13,7 @@ function Target() {
         {
             title: 'Mujeres de palabra',
             img: img1,
+            logo: logo1,
             urlButton: '##',
             color: '#d86543',
             features: [
@@ -30,11 +34,21 @@ function Target() {
                 'Comprobante de domicilio del negocio (no mayor a 3 meses)',
                 'Pago de cuota de protección conserva',
                 'Sin reuniones semanales'
+            ],
+            documentation: [
+                'Identificación oficial vigente',
+                'CURP',
+                'Acta de Nacimiento',
+                'Comprobante de domicilio (no mayor a 3 meses)',
+                'Garantía líquida del 10% sobre el monto de crédito',
+                'Pago de cuota de protección Conserva',
+                'Reuniones semanales'
             ]
         },
         {
             title: 'Conserva T-activa',
             img: img2,
+            logo: logo2,
             urlButton: '##',
             color: '#f4990f',
             features: [
@@ -55,11 +69,21 @@ function Target() {
                 'Comprobante de domicilio del negocio (no mayor a 3 meses)',
                 'Pago de cuota de protección conserva',
                 'Sin reuniones semanales'
+            ],
+            documentation: [
+                'Identificación oficial vigente',
+                'CURP',
+                'Acta de Nacimiento',
+                'Comprobante de domicilio (no mayor a 3 meses)',
+                'Garantía líquida del 10% sobre el monto de crédito',
+                'Pago de cuota de protección Conserva',
+                'Reuniones semanales'
             ]
         },
         {
             title: 'Tu Negocio con Conserva',
             img: img3,
+            logo: logo3,
             urlButton: '##',
             color: '#99cf16',
             features: [
@@ -76,9 +100,96 @@ function Target() {
                 'Comprobante de domicilio del negocio (no mayor a 3 meses)',
                 'Diversas opciones de garantías',
                 'Pago de couta de protección conserva'
+            ],
+            documentation: [
+                'Identificación oficial vigente',
+                'CURP',
+                'Acta de Nacimiento',
+                'Comprobante de domicilio (no mayor a 3 meses)',
+                'Garantía líquida del 10% sobre el monto de crédito',
+                'Pago de cuota de protección Conserva',
+                'Reuniones semanales'
             ]
         }
     ];
+
+
+
+    function firstRow(card, idx) {
+        const styleImg = {
+            padding: '15px',
+            borderRadius: '50%',
+            backgroundImage: `linear-gradient(to right, #000f9f 0%,${card.color} 100%)`
+        };
+        const styleTitle = {
+            fontSize: '30px',
+            fontWeight: 'bold',
+            color: `${card.color}`
+        }
+        const styleSubtitle = {
+            fontSize: '23px',
+            fontWeight: 'bold',
+            color: `${card.color}`
+        }
+        const styleButton = {
+            marginTop: '40px',
+            marginBottom: '40px',
+            borderRadius: '30px',
+            color: '#FFF',
+            borderStyle: 'none',
+            fontSize: '22px',
+            fontWeight: 'bold',
+            padding: '14px 40px 14px 40px',
+            textDecoration: 'none',
+            backgroundColor: `${card.color}`
+        }
+        const list = `list${idx + 1}`
+        return (
+            <>
+                <div className="container mb-5 mt-5 align-items-center">
+                    <div className='row text-center mb-5'>
+                        <div className='FirstRow-imgs-content col'>
+                            <img className="FirstRow-imgs2" style={styleImg} src={card.img} alt="" />
+                        </div>
+                        <div className='FirstRow-imgs-content col p-5'>
+                            <img className="FirstRow-imgs" src={card.logo} alt="" />
+                        </div>
+                    </div>
+                    <h3 style={styleTitle}>{card.title}</h3>
+                    <div className='row text-center '>
+                        <div className='col target-body-text conf-target all-text'>
+                            <span style={styleSubtitle}>Caracteristicas:</span>
+                            <br /><br />
+                            <ul className={list}>
+                                {card.features.map((feature, idx) => <li key={`${idx} + feature`}>{feature}</li>)}
+                            </ul>
+                        </div>
+                        <div className='col target-body-text conf-target all-text'>
+                            <span style={styleSubtitle}>Documentación:</span>
+                            <br /><br />
+                            <ul className={list}>
+                                {card.documentation.map((doc, idx) => <li key={`${idx} + feature`}>{doc}</li>)}
+                            </ul>
+                        </div>
+                        <div className='col target-body-text conf-target all-text'>
+                            <span style={styleSubtitle}>Requisitos:</span>
+                            <br /><br />
+                            <ul className={list}>
+                                {card.requeriments.map((requeriment, idx) => <li key={`${idx} + requeriment`}>{requeriment}</li>)}
+                            </ul>
+                        </div>
+                    </div>
+                    <div className="row text-center mt-3">
+                        <div className="col">
+                            <a className="" style={styleButton} href={card.urlButton}>Solicita tu crédito</a>
+                        </div>
+                    </div>
+                </div>
+                {idx != 2 ? <hr style={{ border: '5px solid', width: '100%', 'background-color': '#000f9f', color: '#000f9f', opacity: '1' }}></hr>:<></>}
+
+            </>
+        );
+    }
 
     function targetImg(img) {
         return (
@@ -123,8 +234,9 @@ function Target() {
             {
                 infoCards.map((card, idx) =>
                     <>
+                        {firstRow(card, idx)}
                         {/* <hr style={{border: '2px solid', width: '80%', 'background-color': 'res', color: 'red', opacity: '1'}}></hr> */}
-                        {idx % 2 === 0 && idx !== 0 ? <hr style={{border: 'none' ,width: '65%', height: '4px', backgroundColor: card.color, opacity: '1'}}></hr> : <></>}
+                        {/* {idx % 2 === 0 && idx !== 0 ? <hr style={{border: 'none' ,width: '65%', height: '4px', backgroundColor: card.color, opacity: '1'}}></hr> : <></>}
                         {idx % 2 === 1 && idx !== 0 ? <hr style={{border: 'none' ,marginLeft: '35%', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1'}}></hr> : <></>}
                         <div key={idx} className={`container mt-4 target-${idx + 1} mr-1 ml-1`}>
                             <div className="row text-center align-items-center p-3">
@@ -132,7 +244,7 @@ function Target() {
                                 {targetCard(card.title, card.features, card.requeriments, card.urlButton)}
                                 {idx % 2 === 1 ? targetImg(card.img) : <></>}
                             </div>
-                        </div>
+                        </div> */}
                     </>
                 )}
 

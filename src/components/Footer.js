@@ -62,13 +62,13 @@ function FooterB() {
                     <div className="container mt-4">
                         <div className="row">
                             <div className="col">
-                                <img src={logo_cnsrv_politica} alt="Logo Conserva" />
+                                <img className='logo-section-3' src={logo_cnsrv_politica} alt="Logo Conserva" />
                             </div>
                             <div className="col condusef text-center">
                                 <img src={logo_condusef} alt="Logo Conserva" />
                             </div>
                             <div className="col">
-                                <img src={logo_cnsrv_UNE} alt="Logo Conserva" />
+                                <img className='logo-section-3' src={logo_cnsrv_UNE} alt="Logo Conserva" />
                             </div>
                         </div>
                     </div>
@@ -86,7 +86,7 @@ function FooterB() {
                     </div>
                     <div className="container">
                         <div className="row align-items-center">
-                            <div className="col-sm-2 col-md-2 col-lg-2">
+                            <div className="col-sm-2 col-md-2 col-lg-2 text-center">
                                 <img className="img-buro" src={logo_buro} alt="Logotipo Buro" />
                             </div>
                             <div className="col-sm-10 col-md-10 col-lg-10">

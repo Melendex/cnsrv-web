@@ -10,7 +10,7 @@ const AreasConserva = () => {
   return (
     <div className='container text-center mt-5'>
       <div className='row'>
-          <div className='col-sm-6 col-md-4 col-lg-4 container-areas'>
+          <div className='col-sm-4 col-md-4 col-lg-4 container-areas'>
 
             <img src={Pagos} alt="" className='imgAreas' />
             <div className='content-txtAreas'>
@@ -19,7 +19,7 @@ const AreasConserva = () => {
             </div>
 
           </div>
-          <div className='col-sm-6 col-md-4 col-lg-4 container-areas'>
+          <div className='col-sm-4 col-md-4 col-lg-4 container-areas'>
 
             <img src={CallCenter} alt="" className='imgAreas' />
             <div className='content-txtAreas'>
@@ -28,7 +28,7 @@ const AreasConserva = () => {
             </div>
 
           </div>
-          <div className='col-sm-6 col-md-4 col-lg-4 container-areas'>
+          <div className='col-sm-4 col-md-4 col-lg-4 container-areas'>
 
             <img src={Sucursales} alt="" className='imgAreas' />
             <div className='content-txtAreas'>

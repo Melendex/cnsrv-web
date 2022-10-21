@@ -1,16 +1,15 @@
 .imgAreas{
-    width: 120px;
-    width: 120px;
+    height: 120px;
 }
 
 .container-areas{
-    padding: 0rem 3rem;
+    padding: 0rem 2rem;
 }
 
 .content-txtAreas{
     border-radius: 5px  ;
     margin-top: 1.3rem;
-    padding: 0rem 1rem;
+    width: 100%;
     background: var(--primary-color);
     color: white;
 }
@@ -23,4 +22,14 @@
 .subtitleAreas{
     font-size: 12px;
     padding: 1.2rem 0.5rem;
+}
+
+@media(max-width:768px){
+    .container-areas{
+        padding: 0rem 1rem;
+    }
+
+    .imgAreas{
+        margin-top: 20px;
+    }
 }

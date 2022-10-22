@@ -65,8 +65,8 @@ const Slider = () => {
         return(
             <>
                 <div className="col-sm-6 col-md-6 col-lg-6">
-                    <b className='fs-2 secundario'>{title}</b>
-                    <div className='primario fs-5 fw-bold mt-3 text-start'>
+                    <b className='txt-home-titles secundario'>{title}</b>
+                    <div className='primario txt-home fw-bold mt-3 text-start'>
                         {subtitle}
                     </div>
                     {
@@ -88,8 +88,8 @@ const Slider = () => {
                     <img src={img} className="d-block img-sliderH img" alt=""/>
                 </div>
                 <div className="col-sm-6 col-md-6 col-lg-6">
-                    <b className='fs-2 primario'>{title}</b>
-                    <div className='primario fs-5 fw-bold mt-3 text-start'>
+                    <b className='txt-home-titles primario'>{title}</b>
+                    <div className='txt-home primario fw-bold mt-3 text-start'>
                         {subtitle}
                     </div>
                     {
@@ -104,7 +104,7 @@ const Slider = () => {
 
 
     return (
-        <Carousel verticalSwipe='natural' axis='horizontal' showArrows={true} showIndicators={true} showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={false} className="font-roboto">
+        <Carousel verticalSwipe='natural' swipeable={false} axis='horizontal' showArrows={true} showIndicators={true} showStatus={false} showThumbs={false} infiniteLoop={true} autoPlay={false} className="font-roboto">
             {
                 infoSliders.map((data, i) => (
                     <>

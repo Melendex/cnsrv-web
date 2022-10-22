@@ -33,12 +33,6 @@
   background: #000f9f !important;
 }
 
-/* img InfoPrevención */
-.img-C2{
-  width: 100px;
-  height: 100px;
-}
-
 /* */
 .txtInfo-H{
   width: 100%;
@@ -67,4 +61,36 @@
 .btnSlide:hover{
   background: #99cf34;
   color: #ffff;
+}
+
+.txt-home{
+  font-size: 24px;
+}
+
+.txt-home-titles{
+  font-size: 28px;
+}
+
+@media (max-width: 768px) {
+  .img-20{
+    height: 100px;
+    margin-bottom: 10px;
+  }
+  
+  .txt-info20{
+    font-size: 16px !important;
+  }
+
+  .info20{
+    margin: 0px 10px;
+  }
+
+  .txt-home{
+    font-size: 18px;
+  }
+
+  .txt-home-titles{
+    font-size: 20px;
+  }
+
 }

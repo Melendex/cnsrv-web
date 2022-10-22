@@ -56,15 +56,16 @@ const CreditsInfo = () => {
         <div className='text-center primario'>
             <div className='contenedor text-start'>
                 <span className='txtInfo'>¿Cuál crédito te interesa?</span>
-                <div className='row mb-3'>
-                    <div className="col-sm-2 col-md-12 col-lg-2">
-                        <button className='btn btn-primary btn-credits'>Individual</button>
+
+                <div className='wrapper-botones mb-3'>
+                    <div className="botones">
+                        <button className='btn btn-credits'>Individual</button>
                     </div>
-                    <div className="col-sm-2 col-md-12 col-lg-2">
-                        <button className='btn btn-primary btn-credits'>Grupal</button>
+                    <div className="botones">
+                        <button className='btn btn-credits'>Grupal</button>
                     </div>
-                    <div className="col-sm-2 col-md-12 col-lg-2">
-                        <button className='btn btn-primary btn-credits'>Mixto</button>
+                    <div className="botones">
+                        <button className='btn btn-credits'>Mixto</button>
                     </div>
                 </div>
 
@@ -72,52 +73,41 @@ const CreditsInfo = () => {
                 <p/>
                 <input className='inputMonto' value={numberFormat(monto)} />
                 <br/>
-                <div className='row'>
-                    <div className='txtInfo col-sm-6 col-md-6 col-lg-6'>{numberFormat(montoMin)}</div>
-                    <div className='txtInfo col-sm-6 col-md-6 col-lg-6 text-end'>{numberFormat(montoMax)}</div>
+                <div className='columnas-inline txtInfo'>
+                    <div className='result-key'>{numberFormat(montoMin)}</div>
+                    <div className='result-value'>{numberFormat(montoMax)}</div>
                 </div>
                 <input defaultValue={montoMin} step={500} min={montoMin} max={montoMax} onChange={ e => setMonto(e.target.value)} className='inputRange' type="range" />
                 
                 <span className='txtInfo'>Pagos</span>
-                {/* {
-                    btnPlazo.length !== 0
-                    ? btnPlazo.map((item) =>{
-                        return <div className='row mb-3'>
-                            <div className="col-sm-12 col-md-12 col-lg-2">
-                                <button className='btn paymentBtn' onClick={() => settxtPlazo(item.frecuencia)}>{item.plazo}</button>
-                            </div>
-                        </div>
-                    })
-                    :<></>
-                } */}
-                <div className='row mb-3'>
-                    <div className="col-sm-12 col-md-12 col-lg-2">
-                        <button className='btn paymentBtn' onClick={() => settxtPlazo('Semanas')}>Semanal</button>
-                    </div>
-                    <div className="col-sm-12 col-md-12 col-lg-2">
-                        <button className='btn paymentBtn' onClick={() => settxtPlazo('Catorcenas')}>Catorcenal</button>
-                    </div>
-                    <div className="col-sm-12 col-md-12 col-lg-2">
-                        <button className='btn paymentBtn' onClick={() => settxtPlazo('Meses')}>Mensual</button>
-                    </div>
+                <div className='wrapper-botones'>
+                    {
+                        btnPlazo.length !== 0
+                        ? btnPlazo.map((item) =>(
+                            <div className="botones">
+                                <button className='btn payment-btn' onClick={() => settxtPlazo(item.frecuencia)}>{item.plazo}</button>
+                            </div>  
+                        ))
+                        :<></>
+                    }
                 </div>
 
                 <span className='txtInfo'>Plazos</span>
                 <p/>
                 <input className='inputMonto' value={`${plazo} ${txtplazo}`} />
                 <br/>
-                <div className='row'>
-                    <div className='txtInfo col-sm-6 col-md-6 col-lg-6'>{`${plazoMin} ${txtplazo}`}</div>
-                    <div className='txtInfo col-sm-6 col-md-6 col-lg-6 text-end'>{`${plazoMax} ${txtplazo}`}</div>
+                <div className='columnas-inline txtInfo'>
+                    <div className='result-key'>{`${plazoMin} ${txtplazo}`}</div>
+                    <div className='result-value'>{`${plazoMax} ${txtplazo}`}</div>
                 </div>
                 <input defaultValue={plazoMin} step={1} min={plazoMin} max={plazoMax} onChange={ e => setPlazo(e.target.value)} className='inputRange2' type="range" />
 
 
                 {
                     result.map((result, i) => (
-                        <div className='row'>
-                            <div className='txt2Info col-sm-6 col-md-6 col-lg-6'>{result.key}</div>
-                            <div className='txt2Info col-sm-6 col-md-6 col-lg-6 text-end'>{numberFormat(result.value)}</div>
+                        <div className='columnas-inline txt2Info'>
+                            <div className='result-key'>{result.key}</div>
+                            <div className='result-value'>{numberFormat(result.value)}</div>
                         </div>
                     ))
                 }

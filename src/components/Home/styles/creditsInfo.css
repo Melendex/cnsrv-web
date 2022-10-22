@@ -6,9 +6,14 @@
     color: var(--primary-color);
     font-weight: bold;
     margin-top: 15px;
-    width: 6rem;
-    /* height: 100%;
-    width: 100%; */
+    width: 100% !important;
+    box-shadow: none !important;
+}
+
+.btn-credits:hover{
+    background-color: var(--primary-color);
+    border-color: var(--second-color) !important;
+    color: white;
 }
 
 .contenedor{
@@ -17,6 +22,29 @@
     box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
     -moz-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999; 
     -webkit-box-shadow: 6px 0 4px -4px #999, -6px 0 4px -4px #999;
+}
+
+.columnas-inline{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+  
+.columnas-inline div {
+    width: 50%;
+}
+.result-value{
+    text-align: end;
+}
+
+/*columna botones*/
+.wrapper-botones {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px; /*spacio de separacion entre columnas*/
+}
+.wrapper-botones, .botones button {
+    width: 20%;
 }
 
 .txtInfo{
@@ -29,6 +57,7 @@
 .inputMonto{
     /* width: 100%; */
     margin-top: 0px;
+    margin-bottom: 15px;
     padding-left: 10px;
     border-color: var(--primary-color);
     text-align: start;
@@ -51,29 +80,22 @@
     margin-bottom: 2rem;
 }
 
-.paymentBtn{
-    padding: 0px;
-    text-align: center ;
+.payment-btn{
+    text-align: start;
     font-size: 15px;
     background-color: var(--tird-color);
-    border-color: var(--tird-color);
     color: var(--primary-color);
     font-weight: bold;
     margin-top: 15px;
-    width: 7rem;
-    height: 2.2rem;
+    width: 100% !important;
+    box-shadow: none !important;
 }
 
-.paymentBtn:hover{
+.payment-btn:hover{
     background-color: var(--second-color);
     border-color: var(--second-color);
     color: var(--primary-color);
 }
-/* .paymentBtn:visited{
-    background-color: var(--second-color) !important;
-    border-color: var(--second-color) !important;
-    color: var(--primary-color) !important;
-} */
 
 .resultInfo{
     margin: 2rem 3rem;
@@ -118,14 +140,13 @@
     }
 
     .btn-credits{
-        font-size: 13px;
+        font-size: 13.5px;
         margin-top: 15px;
         box-shadow: none
     }
 
-    .paymentBtn{
-        font-size: 13px;
-        margin-top: 15px;
+    .payment-btn{
+        font-size: 13.5px;
     }
 
     .inputMonto{
@@ -136,19 +157,24 @@
     }
 
     .txt2Info{
-        font-size: 15px;
+        font-size: 16px;
     }
     
     .txt3Info{
-        font-size: 15px;
+        margin-top: 10px;
+        font-size: 16px;
+        text-align: justify;
     }
 
     .resultInfo{
         color: var(--second-color);
-        font-size: 15px;
+        font-size: 16px;
+        width: 100%;
+        padding: 5px 5px;
+        margin: 20px 0px;
     }
 
     .loanBtn{
-        font-size: 15px;
+        font-size: 16px;
     }
 }

@@ -1,9 +1,11 @@
 .txtStorie{
     font-size: 30px;
+    text-align: start;
     /* font-weight: bold; */
 }
 
 .txt2Stories{
+    text-align: start;
     font-size: 18px;
     color: black;
     margin-top: 4rem;
@@ -12,6 +14,7 @@
 }
 
 .txt3Stories{
+    text-align: start;
     color: black;
     font-size: 10px;
     padding-left: 3rem;
@@ -22,4 +25,25 @@
 .videoStorie{
     width: 16rem;
     height: 20rem;
+}
+
+@media(max-width: 768px){
+
+    .txtStorie{
+        margin-top: 15px;
+        font-size: 19px;
+    }
+
+    .txt2Stories{
+        text-align: start;
+        font-size: 15px;
+        padding: 0px !important;
+        margin-top: 1.5rem;
+    }
+
+    .txt3Stories{
+        text-align: start;
+        padding-left: 0px;
+        margin-bottom: 15px;
+    }
 }

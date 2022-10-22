@@ -8,14 +8,15 @@ import history1 from '../../img/SuccessStories/History1.svg';
 const SuccessStories = () => {
   return (
     <div className='container primario text-center mt-5'>
-        <span className='fs-2' >CASOS DE EXITO</span>
-
+    
         <div className='row'>
-            <div className='col-md-8 col-lg-8 text-start txtStorie'>
-                <span>Que dicen las personas</span><br/>
+            <div className='txtStorie'>
+                 Qué dicen las personas...
+            </div>
+            <div className='col-md-8 col-lg-8'>
 
                 <div className='txt2Stories'>
-                    Gracias a Dios y a Conserva que nos han apoyado.Gracias a Dios y a ellos tengo mi negocio que me ha funcionado muy bien y sigo a delante.
+                    Gracias a Dios y a Conserva que nos han apoyado. Gracias a Dios y a ellos tengo mi negocio que me ha funcionado muy bien y sigo a delante.
                 </div>
                 <div className='txt3Stories'>
                     Señora María Luisa<br/>

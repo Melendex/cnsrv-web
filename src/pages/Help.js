@@ -6,7 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import '../styles/help.css'
 import Llamanos from '../img/Llamanos.svg'
 
-import Contenedor from '../components/contenedor';
+import Contenedor from '../components/Container';
 
 const Help = () => {
   return (

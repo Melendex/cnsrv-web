@@ -1,10 +1,4 @@
-import React, { useEffect, useRef, useState } from 'react'
-import info1 from '../../img/infoPrevencion/Cancer.svg';
-import info2 from '../../img/infoPrevencion/Mama.svg';
-import info3 from '../../img/infoPrevencion/Vista.svg';
-import info4 from '../../img/infoPrevencion/Corazon.svg';
-import info5 from '../../img/infoPrevencion/Dental.svg';
-import info6 from '../../img/infoPrevencion/Educacion.svg';
+import React, { useEffect, useRef, useState } from 'react';
 import { ReactComponent as FlechaIzquierda } from '../../img/infoPrevencion/indicador_izquierda.svg';
 import { ReactComponent as FlechaDerecha } from '../../img/infoPrevencion/indicador_derecha.svg';
 

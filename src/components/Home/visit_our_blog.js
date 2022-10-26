@@ -12,7 +12,7 @@ import img4 from '../../img/Blog/Img4.png';
 const Blog_Info = () => {
 
     return (
-        <div className='container'>
+        <div className='container content-blog'>
             <div className='txt-blog'>Visita Nuestro Blog</div>
 
             <div class="row invertir">

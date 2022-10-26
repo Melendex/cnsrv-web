@@ -8,6 +8,7 @@ import info3 from '../../img/infoPrevencion/Vista.svg';
 import info4 from '../../img/infoPrevencion/Corazon.svg';
 import info5 from '../../img/infoPrevencion/Dental.svg';
 import info6 from '../../img/infoPrevencion/Educacion.svg';
+import MySlide from './Slide.js';
 
 const infoPrevencion = () => {
     const info = [
@@ -51,29 +52,47 @@ const infoPrevencion = () => {
 
 
   return (
-    <div className="row align-items-start">
-        {info.length !== 0 ?
-          info.map((data,index) => (
-              <div key={index} className="col-sm-12 col-md-6 col-lg-2 font-roboto">
-                <section className='slide-info'>
-                    <div className='slide-img'>
-                      <div className='text-center img-info-prev'text-start >
-                        <img src={data.img} className="img-C2" alt=""/>
-                      </div>
-                      <div className='text-center secundario fs-4 fw-bold pb-2' >
-                        {data.value}
-                      </div>
-                      <div className='txt1-info-prev'>
-                        <b>{data.title}</b>
-                      </div>
-                      <div className='text-xs-center text-sm-center text-md-center text-lg-center txt2-info-prev'>
-                        {data.subtitle}
-                      </div>
+      <div className=''>
+        <div className="row align-items-start info-desktop">
+          {info.length !== 0 ?
+            info.map((data,index) => (
+                <div key={index} className="col-sm-12 col-md-6 col-lg-2 font-roboto">
+                  <div className='text-center img-info-prev'text-start >
+                    <img src={data.img} className="img-C2" alt=""/>
+                  </div>
+                  <div className='text-center secundario fs-4 fw-bold pb-2' >
+                    {data.value}
+                  </div>
+                  <div className='txt1-info-prev'>
+                    <b>{data.title}</b>
+                  </div>
+                  <div className='text-xs-center text-sm-center text-md-center text-lg-center txt2-info-prev'>
+                    {data.subtitle}
+                  </div>
+                </div>
+            )) : <></>
+          }
+      </div>
+      <div className='info-phone'>
+          <MySlide controls={true} >
+            {info.length !== 0 ?
+                info.map((data,index) => (
+                  <div key={index} className='slide-item'>
+                    <img alt="" src={data.img}/>
+                    <div className='txt-value-info'>
+                      {data.value}
                     </div>
-                </section>
-              </div>
-          )) : <></>
-        }
+                    <div className='txt-title-info subtitle-text'>
+                      <b>{data.title}</b>
+                    </div>
+                    <div className='txt-subtitle-info'>
+                      {data.subtitle}
+                    </div>
+                  </div>
+              )) : <></>
+            }              
+          </MySlide>
+      </div>
     </div>
   )
 }

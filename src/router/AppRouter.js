@@ -3,8 +3,6 @@ import React from "react";
 // import {  Router, Switch, Redirect, Route } from 'react-router';
 import {
     HashRouter,
-    BrowserRouter,
-    Switch,
     Routes,
     Route,
 } from "react-router-dom";

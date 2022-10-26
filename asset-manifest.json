@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/cnsrv-web/static/css/main.5de7f684.css",
-    "main.js": "/cnsrv-web/static/js/main.aad75520.js",
+    "main.css": "/cnsrv-web/static/css/main.ccaa69d2.css",
+    "main.js": "/cnsrv-web/static/js/main.bd37afcb.js",
     "static/js/787.2fbad6c3.chunk.js": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js",
     "static/media/Carousel1.svg": "/cnsrv-web/static/media/Carousel1.0a0ea3d577ddd2d84b26f15fd912dbe0.svg",
     "static/media/Carousel3.svg": "/cnsrv-web/static/media/Carousel3.ae3f2f84656a7c23170312022ca646ce.svg",
@@ -13,8 +13,12 @@
     "static/media/resiliencia3.png": "/cnsrv-web/static/media/resiliencia3.8127e68965bb629b5b66.png",
     "static/media/Roboto-Regular.ttf": "/cnsrv-web/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
     "static/media/Poppins-Regular.ttf": "/cnsrv-web/static/media/Poppins-Regular.35d26b781dc5fda684cc.ttf",
+    "static/media/Img1.png": "/cnsrv-web/static/media/Img1.d746c2423490f53b299f.png",
+    "static/media/Img3.png": "/cnsrv-web/static/media/Img3.82d35435e9a0e74f298a.png",
     "static/media/resiliencia2.png": "/cnsrv-web/static/media/resiliencia2.0d7d3ca44b0bba0a02d0.png",
     "static/media/logo_buro.svg": "/cnsrv-web/static/media/logo_buro.45b04835a210458d85195d8b5d757cd1.svg",
+    "static/media/Img4.png": "/cnsrv-web/static/media/Img4.6700b3de873eeae21773.png",
+    "static/media/Img2.png": "/cnsrv-web/static/media/Img2.fbc5a1bcbf5938c6e6cf.png",
     "static/media/Cancer.svg": "/cnsrv-web/static/media/Cancer.33ee079d59001fb43757252a7f7a2911.svg",
     "static/media/Mama.svg": "/cnsrv-web/static/media/Mama.ee8f5f8736c52790d65844b0537b02fe.svg",
     "static/media/Educacion.svg": "/cnsrv-web/static/media/Educacion.2db95d4a48404d0fd949f29bce29f93d.svg",
@@ -49,12 +53,14 @@
     "static/media/logo_youtube.svg": "/cnsrv-web/static/media/logo_youtube.ca87373e308ceadb863afbb7b34866e9.svg",
     "index.html": "/cnsrv-web/index.html",
     "static/media/Pagos.svg": "/cnsrv-web/static/media/Pagos.a0e6aa4f234c758146df878bccd7a629.svg",
-    "main.5de7f684.css.map": "/cnsrv-web/static/css/main.5de7f684.css.map",
-    "main.aad75520.js.map": "/cnsrv-web/static/js/main.aad75520.js.map",
+    "static/media/indicador_derecha.svg": "/cnsrv-web/static/media/indicador_derecha.2d9e037d76fb1b767bb3ff7a0e256efb.svg",
+    "static/media/indicador_izquierda.svg": "/cnsrv-web/static/media/indicador_izquierda.89879f66475909b0035d1385d0bcd6e2.svg",
+    "main.ccaa69d2.css.map": "/cnsrv-web/static/css/main.ccaa69d2.css.map",
+    "main.bd37afcb.js.map": "/cnsrv-web/static/js/main.bd37afcb.js.map",
     "787.2fbad6c3.chunk.js.map": "/cnsrv-web/static/js/787.2fbad6c3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5de7f684.css",
-    "static/js/main.aad75520.js"
+    "static/css/main.ccaa69d2.css",
+    "static/js/main.bd37afcb.js"
   ]
 }

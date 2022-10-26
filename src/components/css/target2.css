@@ -64,3 +64,21 @@
     padding: 15px;
 
 }
+
+
+@media (max-width: 768px) {
+    .conf-target2-title {
+        margin-top: 40px;
+        color: var(--primary-color);
+        font-size: 25px;
+        font-weight: var(--size-weight-title-box);
+    }
+
+    .img-target img{
+        background-image: linear-gradient(to right, rgb(6, 6, 114) 0%,
+        rgb(23, 207, 38) 100%);
+        border-radius: 50%;
+        padding: 15px;
+        height: 330px;
+    }
+}

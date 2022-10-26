@@ -1,0 +1,54 @@
+.slider-container{
+    position: relative;
+}
+
+.content-slide-show{
+    text-align: center;
+    overflow: hidden !important; /*ocultar lo que sale del espacio*/
+
+    display: flex;
+    flex-wrap: nowrap;
+    position: relative;
+}
+
+.slide-item{
+    min-width: 100%;
+    overflow: hidden;
+    transition: .3s ease all;
+    z-index: 10;
+    padding: 0px 40px;
+}
+
+.slide-item img{
+    object-fit: cover;
+    height: 170px;
+    /* vertical-align: top; */
+
+}
+
+.btn-controls{
+    position: absolute;
+    top: 0;
+    z-index: 20;
+    width: 100%;
+    height: 100%;
+    pointer-events: none; /*evitamos que los botones se sobrepongan sobre eventos del dlide*/
+}
+
+.btn-controls button{
+    margin: 0px 20px;
+    pointer-events: all;
+    background: none;
+    border: none;
+    outline: none;
+    height: 100%;
+    text-align: center;
+    position: absolute;
+    transition: .3s ease all;
+    fill: var(--primary-color);
+    font-weight: bold;
+}
+
+.btn-controls, .btn-right{
+    right: 0;
+}

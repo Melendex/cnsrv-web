@@ -90,6 +90,7 @@
     border-radius: 15px;
     border-style: none;
     padding: 5px 0px;
+    border: none;
 }
 
 .content-btn-subscribe{
@@ -143,29 +144,37 @@
     .subscribe-blog{
         margin-top: 5px;
         text-align: center !important;
-
+        margin-bottom: 50px !important;
     }
 
     .input-blog{
         text-align: center;
-        width: 80%;
+        width: 100%;
         background: var(--tird-color);
         font-size: 15px;
         margin-right: 25px;
+        border: none;
+        /* border-style: none; */
     }
 
-    .input-blog:focus, .input-blog:active{
-        
+    .input-blog:focus{
+        outline: none;
     }
 
     .content-input-blog{
-        text-align: center !important;;
+        padding: 0px 25px;
+        margin: 0px;
+        text-align: center !important;
     }
     
 
     .content-btn-subscribe{
         margin-top: 15px;
         text-align: center;
+    }
+
+    .btn-subscribe-blog{
+        padding: 2px 12px;
     }
 
 }

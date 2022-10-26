@@ -8,7 +8,6 @@
     src: local('Poppins'), url(./../../fonts/Poppins/Poppins-Regular.ttf) format('truetype');
 }
 
-
 :root {
     --primary-color: #000f9f;
     --second-color: #aec908;
@@ -16,12 +15,30 @@
     --tird-color: #e8e8e8;
 }
 
+/*Contenedor de los item del componente Slide*/
+.slide-item{
+    min-width: 100%;
+    overflow: hidden;
+    transition: .3s ease all;
+    z-index: 10;
+    padding: 0px 40px;
+}
+
 *{
     font-family: 'Poppins' !important;
 }
 
 @media (max-width: 768px) {
-    .all-text {
-        font-size: 15px;
+    .title-text{
+        font-size: 25px; 
     }
+
+    .subtitle-text{
+        font-size: 19px;
+    }
+
+    .all-text {
+        font-size: 16px;
+    }
+
 }

@@ -35,7 +35,7 @@ const Home = () => {
 
       <InfoPrevencion/>
 
-      <div className='txtInfo-H align-items-center mt-5 p-3 font-roboto'>
+      <div className='txtInfo-H align-items-center mt-3 p-3 font-roboto'>
         <div className='text-center txt-home'>
           <b className='primario'>¡Comienza hoy tu crecimiento con nosotros!</b>
           <br/>

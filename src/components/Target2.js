@@ -130,7 +130,7 @@ function Target() {
                         {/* {idx % 2 === 0 && idx !== 0 ? <hr style={{ border: 'none', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>}
                         {idx % 2 === 1 && idx !== 0 ? <hr style={{ border: 'none', marginLeft: '35%', width: '65%', height: '4px', backgroundColor: card.color, opacity: '1' }}></hr> : <></>} */}
                         <div key={idx} className={`container mt-4 target-${idx + 1} mr-1 ml-1`}>
-                            <div className="row text-center align-items-center p-3">
+                            <div className="row text-center align-items-center">
                                 {/* {idx % 2 === 0 ? targetImg(card.img) : <></>} */}
                                 {targetImg(card.img)}
                                 {targetCard(card.title, card.features, card.requeriments, card.text, card.urlButton)}

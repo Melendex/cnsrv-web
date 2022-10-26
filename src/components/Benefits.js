@@ -6,7 +6,7 @@ import imgCreditoInmediato from './../img/Benefits/CreditoInmediato.png';
 import imgTratohumano from './../img/Benefits/TratoHumano.png';
 import imgTasaBaja from './../img/Benefits/TasaBaja.png';
 import imgPagosChiquitos from './../img/Benefits/PagosChiquitos.png';
-import React, { useState } from 'react';
+import React, { useEffect, useState } from 'react';
 
 function Benefits() {
     const [component, setComponent] = useState();
@@ -43,6 +43,10 @@ function Benefits() {
             img: imgPagosChiquitos
         },
     ];
+
+    useEffect(() => {
+        setComponent(bonificationComp())
+    }, [])
     function clickItem(code) {
         switch (code) {
             case 'BF':
@@ -70,21 +74,72 @@ function Benefits() {
         return (
             <div className='component-container container'>
                 <div className='row'>
-                    <div className='col'>
+                    <div className='col-xs-12 col-md-6'>
                         <h1 className='component-title-normal'>Rangos de <span className='component-title-blue'>bonificación</span> por cada <b>$1,000</b></h1>
                     </div>
-                    <div className='col'>
+                    <div className='col-xs-12 col-md-6'>
                         <img className="mb-3" src={imgBonificacion} alt="" />
 
                     </div>
                 </div>
                 <div className='row align-items-center'>
-                    <div className='col p-2' style={{ backgroundColor: '#000f9f', borderRadius: '20px', height: '300px' }}>
+                    <div className='col-xs-12 col-md-6 p-2 container-table-bonification' >
                         <div>
-
+                                <table class="table">
+                                    <th>Plazo semanal</th>
+                                    <th>0.5%</th>
+                                    <th>0.75%</th>
+                                    <th>1.0%</th>
+                                    <tbody>
+                                        <tr>
+                                            <td>16</td>
+                                            <td>$14.74</td>
+                                            <td>$22.15</td>
+                                            <td>$29.53</td>
+                                        </tr>
+                                        <tr>
+                                            <td>20</td>
+                                            <td>$18.44</td>
+                                            <td>$27.67</td>
+                                            <td>$36.88</td>
+                                        </tr>
+                                        <tr>
+                                            <td>24</td>
+                                            <td>$22.19</td>
+                                            <td>$33.33</td>
+                                            <td>$44.33</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
+                                <table class="table">
+                                    <th>Plazo Catorcenal</th>
+                                    <th>0.5%</th>
+                                    <th>0.75%</th>
+                                    <th>1.0%</th>
+                                    <tbody>
+                                        <tr>
+                                            <td>8</td>
+                                            <td>$15.58</td>
+                                            <td>$23.38</td>
+                                            <td>$31.17</td>
+                                        </tr>
+                                        <tr>
+                                            <td>10</td>
+                                            <td>$19.26</td>
+                                            <td>$28.89</td>
+                                            <td>$31.51</td>
+                                        </tr>
+                                        <tr>
+                                            <td>12</td>
+                                            <td>$23.01</td>
+                                            <td>$34.52</td>
+                                            <td>$46.01</td>
+                                        </tr>
+                                    </tbody>
+                                </table>
                         </div>
                     </div>
-                    <div className='col'>
+                    <div className='col-xs-12 col-md-6'>
                         <span style={styleQuestionsTitle}>¿Como ganar tu bonificación?</span>
                         <p>
                             Puedes ganar tu bonificación
@@ -181,9 +236,9 @@ function Benefits() {
                         </p>
                     </div>
                 </div>
-                <div className='row'>
+                <div className='row text-center'>
                     <div className='col'>
-                        <p>4.5%</p>
+                        <p className='porcentaje'>4.5%</p>
                     </div>
                     <div className='col'>
                         <p>
@@ -223,18 +278,21 @@ function Benefits() {
             </div >
         );
     }
-
+    // col-sm-6 col-md-4 mb-4
     return (
         <div className="container text-center mt-4">
             <h2 className="benefits-title">Nuestros beneficios</h2>
-            <div className="row text-center align-items-end">
-                {imgsBottom.map((item) =>
-                    <div key={item.title} onClick={() => clickItem(item.code)} className="col-sm-6 col-md-4 mb-4">
-                        <img className="mb-3" src={item.img} alt="" />
+            <div className="row text-center align-items-start mb-4">
+                <div className="col-1"></div>
+                {
+                imgsBottom.map((item) =>
+                    <div key={item.title} onClick={() => clickItem(item.code)} className="col-2"> 
+                        <img className="mb-3 item-img" src={item.img} alt="" />
                         <br />
-                        <span>{item.title}</span>
+                        <span className='item-title'>{item.title}</span>
                     </div>
                 )}
+                <div className="col-1"></div>
             </div>
             {component}
         </div>

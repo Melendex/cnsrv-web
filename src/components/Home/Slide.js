@@ -67,7 +67,7 @@ const MySlide = (props) =>{
   }
 
     return (
-          <div class="slider-container">  
+          <div className="slider-container">  
             <div className='content-slide-show' ref={slideRef}>
               {/* <div className='slide-item'>
 

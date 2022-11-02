@@ -15,7 +15,7 @@ const Blog_Info = () => {
         <div className='container content-blog'>
             <div className='txt-blog'>Visita Nuestro Blog</div>
 
-            <div class="row invertir">
+            <div className="row invertir">
                 <div className='col-lg-8 grid-col1-blog'>
                     <div>Emprende un negocio propio hoy</div>
                     <div className='txt-infoBlog-content'>

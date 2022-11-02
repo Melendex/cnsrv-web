@@ -31,7 +31,7 @@ function Target() {
                 'Pago de cuota de protección conserva',
                 'Sin reuniones semanales'
             ],
-            text: 'Aqui Comienza tu historia con conserva. Si eres una mijer emprendedora solicita tu credito grupal hoy, te prestamos desde $2,000 hasta $50,000. que necesitas para emprender o hacer cerecer tu negocio.'
+            text: 'Aqui Comienza tu historia con conserva. Si eres una mujer emprendedora solicita tu credito grupal hoy, te prestamos desde $2,000 hasta $50,000. que necesitas para emprender o hacer cerecer tu negocio.'
         },
         {
             title: 'Conserva T-activa',
@@ -98,7 +98,7 @@ function Target() {
             <div className="col-sm-12 col-md-12 col-lg-6 text-center">
                 <h2 className="conf-target2-title">{title}</h2>
 
-                <div className="text-center card-p all-text mb-5 mt-5">
+                <div className="text-center card-p conf-target2-text mb-5 mt-5">
                     <p>{text}</p>
                 </div>
 

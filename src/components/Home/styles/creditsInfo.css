@@ -39,6 +39,7 @@
 
 /*columna botones*/
 .wrapper-botones {
+    margin-bottom: 25px;
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 10px; /*spacio de separacion entre columnas*/

@@ -15,15 +15,20 @@
     color: #FFF;
     border-radius: 30px;
     border-style: none;
-    font-weight: 800;
-    font-size: 20px;
-    padding: 14px 40px 14px 40px;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 15px 15px;
     text-decoration: none;
 }
 
 .conf-target2-title {
     color: var(--primary-color);
-    font-size: 35px;
+    font-size: 28px;
+    font-weight: var(--size-weight-title-box);
+}
+
+.conf-target2-text {
+    font-size: 18px;
     font-weight: var(--size-weight-title-box);
 }
 
@@ -61,24 +66,37 @@
     background-image: linear-gradient(to right, rgb(6, 6, 114) 0%,
     rgb(23, 207, 38) 100%);
     border-radius: 50%;
-    padding: 15px;
-
+    padding: 10px;
+    height: 300px;
 }
 
 
 @media (max-width: 768px) {
     .conf-target2-title {
-        margin-top: 40px;
+        margin-top: -40px;
         color: var(--primary-color);
-        font-size: 25px;
+        font-size: 22px;
         font-weight: var(--size-weight-title-box);
     }
 
+    .conf-target2-button {
+        font-size: 15px;
+        padding: 10px 10px;
+        /* margin-bottom: 50px; */
+    }
+    
+    .conf-target2-text {
+        padding: 0px 12px;
+        font-size: 16px;
+        font-weight: var(--size-weight-title-box);
+    }
+
+    .img-target{
+        margin: 0px;
+    }
+
     .img-target img{
-        background-image: linear-gradient(to right, rgb(6, 6, 114) 0%,
-        rgb(23, 207, 38) 100%);
-        border-radius: 50%;
-        padding: 15px;
-        height: 330px;
+        height: 225px;
+        margin-bottom: 0px;
     }
 }
